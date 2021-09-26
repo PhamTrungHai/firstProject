@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <meta charset="UTF-8">       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("img").hide();
+                $("button.button").click(function(){
+                $("img").toggle();
+                });
+            });
+        </script>
+        <style>
+            .button {
+              border: none;
+              color: crimson;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+                background-color: #4CAF50;}
+            *{background-color: aqua;}
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1>Sơ yếu lý lịch</h1>
+        <ol style="list-style: upper-roman;">
+            <li>Thông tin cá nhân
+                <ul style="list-style: circle;">
+                <li><b>Phạm Trung Hải &#128151</b></li>
+                <li>TH2014</li>
+                <li><i>Sdt:0909000000</i></li>
+                <li><address>Email:asdasd@gmaill.com</address></li>
+                <li>Ngày sinh: 25<sup>th</sup>June,2002</li>
+                <li><a href="https://www.google.com"  >Facebook cá nhân</a></li>
+            </ul>
+            </li>
+            <li>Học Vấn
+                <br>
+                <p></p>
+            </li>
+            <li>Sở thích
+                <br>
+                <p></p>
+            </li>
+    </ol>           
+       
+        <p>favorite quote : </p>
+        <cite><q>Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</q></cite><dfn><sub>Albert Einstein</sub></dfn>
+        <br>        
+        <hr>
+        <p style="font-weight: 300;color: crimson;font-size: larger;">Hình ảnh giới thiệu</p>
+        <img src="../img/hinh01.jpg" alt="Trai bong" height="300px" width="200px" style="margin-right: 100cm;"> <br>
+        <img src="../img/hinh01.jpg" alt="Trai bong" height="50px" width="50px">
+        </div>
+        <div>
+            <img src="../img/hinh01.jpg" alt="00000">
+            <br>
+            <button class="button">ON/OFF</button>
+        </div>
+        <a href="../Store.html"><button style="position: fixed;bottom: 0;right: 0;height: 30px;background-color: crimson;">Về trang Store</button></a>
+    </body>
+</html>
